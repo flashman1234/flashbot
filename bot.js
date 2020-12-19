@@ -14,7 +14,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
 
-    if (message.content.startsWith('flashbot')) {
+    if (message.content.toLowerCase().startsWith('flashbot')) {
 
        message.channel.send('3');
 
