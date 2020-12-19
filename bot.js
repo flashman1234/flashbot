@@ -14,9 +14,9 @@ client.on('ready', () => {
 
 client.on('message', message => {
 
-    if (message.content.startswith('flashbot')) {
+    if (message.content === 'ping') {
 
-       message.reply('3');
+       message.reply('pong');
 
        }
 
