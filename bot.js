@@ -14,7 +14,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
 
-    if (message.content === 'flashbot') {
+    if (message.content.startsWith('flashbot')) {
 
        message.channel.send('3');
 
